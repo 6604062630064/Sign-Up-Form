@@ -1,0 +1,21 @@
+body, html {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+div.img {
+    background-image: url(./image/bg.jpg);
+    min-height: 100%;
+    aspect-ratio: 1200 / 1799;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.logo {
+    display: inline-block;
+}
+
+
